@@ -1,0 +1,16 @@
+.container
+{ background-color:pink ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+border:5px #521078 double;
+}
+.nav-link
+{
+    color: #521078;
+    margin-left: 50px;
+}
+.navbar-brand
+{
+    color: #521078;
+    font-size: larger;
+}
