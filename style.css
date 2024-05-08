@@ -1,3 +1,9 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
 .container
 { background-color:pink ;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,4 +19,36 @@ border:5px #521078 double;
 {
     color: #521078;
     font-size: larger;
+    pointer-events: none;
+}
+.login-button
+{
+    background-color:hotpink ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+align-content: center; 
+}
+.Wrapper
+{
+    margin: 75px auto;
+    border-radius : 20px;
+    padding-top: 75px;
+    padding-bottom:75px;
+    box-shadow: 0 0 50px 2px rgba(100,40,60,015);
+}
+.images-png
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top:50%;
+    z-index:-2;
+}
+.Title
+{
+    color: #521078;
+    font-size: larger;
+    pointer-events: none;
+    text-align : center;
 }
