@@ -35,6 +35,8 @@ align-content: center;
     padding-top: 75px;
     padding-bottom:75px;
     box-shadow: 0 0 50px 2px rgba(100,40,60,015);
+    width: 50%;
+    text-align: center;
 }
 .images-png
 {
@@ -51,4 +53,20 @@ align-content: center;
     font-size: larger;
     pointer-events: none;
     text-align : center;
+}
+.custom-button
+{
+    color: #521078;
+    background-color: hotpink;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group
+{
+    padding: 20px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    
 }
