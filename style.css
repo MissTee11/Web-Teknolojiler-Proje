@@ -31,7 +31,7 @@ border:5px #521078 double;
     cursor: pointer;
     display:block;
     margin: 0 auto;
-    width: 45px;
+    width: 90px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -49,10 +49,10 @@ border:5px #521078 double;
 .images-png
 {
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: absolute;
     display: block;
-    top:50%;
+    top:20%;
     z-index:-2;
     
 }
