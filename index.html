@@ -4,23 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <link rel = "stylesheet" href = "style.css">
 
     </head>
     <body>
-      <div class = "Wrapper">
-        <div class = "feature-box">
+        <div class="Title">
           <h1>Welcome to My Website!</h1>
-          <p>Hie there! My name is Tariro and I would love to share who I am
-            with the rest of the world. So let's start with you.</p>
-            <p>Please Log In To Continue.</p>
-         
-        </div>
+
+          </div>
+          <form action="login.php" method="post">
+            <div class = "Wrapper">
+              <p>Hie there! My name is Tariro and I would love to share who I am
+                with the rest of the world. So let's start with you.</p>
+                <p>Please Log In To Continue.</p>
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email" name= "email" aria-describedby="emailHelp" placeholder="Enter email" required>
+            </div>
+              <div class="form-group">
+               <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+              </div>
+            </div>
+              <button type="submit" class="custom-button">Login</button>
+          </form>
         
       </div>
-      <a href="login.html"><button class="login-button">LOGIN</button>
-      </a>
       <img src = "maroon.jpg" class="images-png">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" >
+  </script>
+ 
 
     </body>
