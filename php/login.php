@@ -9,18 +9,16 @@ if ($_SERVER["REQUEST_METHOD"]== "POST")
 
     if($email===$expectedemail && $password===$expectedpassword)
     {
-        header("Location:home.html")
+        echo "Welcome B221210592!";
+        header("Location:home.html");
+        exit();
     }
     else
     {
+        echo"invalid username or password. Please try again";
         header("Location:index.html");
         exit;
     }
 }
-    else
-    {
-        header("Location:index.html");
-        exit; 
-    }
 
 ?>
