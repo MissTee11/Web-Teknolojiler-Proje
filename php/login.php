@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST")
     {
         echo"invalid username or password. Please try again";
         header("Location:index.html");
-        exit;
+        exit();
     }
 }
 

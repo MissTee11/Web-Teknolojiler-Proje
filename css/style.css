@@ -21,6 +21,11 @@ border:5px white ;
     font-weight: bolder;
     color: grey;
 }
+.nav-link.dropdown-toggle.active
+{
+    font-weight: bolder;
+    color: grey;
+}
 .dropdown-item.nav-link.active
 {
     font-weight: bolder;
@@ -271,12 +276,33 @@ body{
     text-transform: capitalize;
 
 }
+.carousel-item
+{
+    height: 32rem;
+    background: grey;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
 
-
-
-
-
-
-
-
-    
+}
+.container2
+{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    padding-bottom: 50px;
+}
+.GeneralInfo
+{
+    margin-top: 60%;
+}
+.information
+{  
+    margin-top: 5%;
+}
+.carousel-indicators
+{
+    height: 45%;
+}
