@@ -306,3 +306,55 @@ body{
 {
     height: 45%;
 }
+#movies-wrapper {
+    max-width: 30%; 
+    margin: 0 auto;
+    margin-left: 0%;
+    padding: 20px;
+    position: absolute;
+    box-shadow: 0 0 50px 2px rgba(100,40,60,015);
+    width: 50%;
+    text-align: center;
+    background-color: whitesmoke;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#baking-wrapper
+{
+    max-width: 30%; 
+    margin: 0 auto;
+    margin-left: 35%;
+    padding: 20px;
+    position: absolute;
+    box-shadow: 0 0 50px 2px rgba(100,40,60,015);
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.baking p
+{
+    font-weight: bold;
+}
+#planets-wrapper
+{
+    max-width: 30%; 
+    margin: 0 auto;
+    margin-left: 70%;
+    padding: 20px;
+    position: absolute;
+    box-shadow: 0 0 50px 2px rgba(100,40,60,015);
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.space p
+{
+    font-weight: bold;
+}
+
+
