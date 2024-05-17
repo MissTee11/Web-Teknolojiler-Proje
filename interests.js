@@ -1,4 +1,4 @@
-const movieurl = 'https://imdb-top-100-movies.p.rapidapi.com/';
+const movieurl = 'https://movies-api14.p.rapidapi.com/movies';
 const bakingurl = 'https://the-birthday-cake-db.p.rapidapi.com/5';
 const spaceurl = 'https://planets-info-by-newbapi.p.rapidapi.com/api/v1/planets/';
 
@@ -6,7 +6,7 @@ const movieoptions = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '4ba04672b1msh7a58aad58be16a7p1081a3jsn9aafaf15136b',
-		'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
+		'X-RapidAPI-Host': 'movies-api14.p.rapidapi.com'
 	}
 };
 const cakeoptions = {
@@ -28,17 +28,17 @@ async function fetchData() {
 try {
 	    const response = await fetch(movieurl, movieoptions);
 	    const result = await response.json();
-     if (result && result.length > 0)
+     if (result && result.movies&& result.movies.length > 0)
          {
             const moviesContainer = document.getElementById('movies');
-            const topFiveMovies = result.slice(0, 8); 
+            const topFiveMovies = result.movies.slice(0, 8); 
             
             topFiveMovies.forEach(movie => {
                 const movieElement = document.createElement('div');
                 movieElement.innerHTML = `
-                    <h2>${movie.title}</h2>
-                    <p>Year: ${movie.year}</p>
-                    <img src="${movie.image}" alt="${movie.title} Poster" width="25%">
+                    <h2>${movie.original_title}</h2>
+                    <p>Year: ${movie.release_date}</p>
+                    <img src="${movie.poster_path}" alt="${movie.original_title} Poster" width="25%">
                     `;
                     moviesContainer.appendChild(movieElement);
                 });

@@ -286,6 +286,19 @@ body{
     background-size: cover;
 
 }
+.slide-button
+{
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 20%;
+    margin-left: 45%;
+
+}
 .container2
 {
     position: absolute;
@@ -293,6 +306,11 @@ body{
     left:0;
     right:0;
     padding-bottom: 50px;
+}
+.container2 h2{
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
 }
 .GeneralInfo
 {
@@ -356,5 +374,64 @@ body{
 {
     font-weight: bold;
 }
+.cityimages
+{
+    height: 10%;
+    margin-left: 20%;
+    margin-right: 20;
+    width: 60%;  
+}
+.heritagedetails
+{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+.Heritage h2{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 60px;
+}
+.Tourism img
+{
+        max-width: 45%; 
+        height: auto;
+        border-radius: 10px;
+}
+.Tourism
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.Hobbies
+{
+    display: flex;
+            justify-content: space-between;
+            gap: 10px; 
+            font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.Hobbies img {
+ 
+    width: 50%; 
+    height: 80%;
+    border-radius: 10px;
+}
+
+
 
 
